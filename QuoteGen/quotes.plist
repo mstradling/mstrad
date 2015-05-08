@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+ Quotes
+ -->
+<plist version="1.0">
+    <array>
+        
+        <dict>
+            <key>category</key>  <string>classic</string>
+            <key>quote</key>  <string>Frankly my dear, I don't give a dam.</string>
+            <key>source</key>  <string>Gone with the wind</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>classic</string>
+            <key>quote</key>  <string>There's no place like home.</string>
+            <key>source</key>  <string>Wizard of Oz</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>classic</string>
+            <key>quote</key>  <string>Elementary my dear Watson.</string>
+            <key>source</key>  <string>Sherlock Holmes</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>classic</string>
+            <key>quote</key>  <string>I have not the pleasure of understanding you.</string>
+            <key>source</key>  <string>Pride and Predice</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>classic</string>
+            <key>quote</key>  <string>O Romeo, Romeo! wherefore art thou Romeo?</string>
+            <key>source</key>  <string>Romeo and Juliet</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>classic</string>
+            <key>quote</key>  <string>To be or not to be</string>
+            <key>source</key>  <string>Hamlet</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>classic</string>
+            <key>quote</key>  <string>...Crime is only a left-handed form of human endeavor.</string>
+            <key>source</key>  <string>The Asphalt Jungle</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>modern</string>
+            <key>quote</key>  <string>Go ahead make my day.</string>
+            <key>source</key>  <string>Dirty Harry</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>modern</string>
+            <key>quote</key>  <string>May the Force be with you.</string>
+            <key>source</key>  <string>Star wars</string>
+        </dict>
+        <dict>
+            <key>category</key>  <string>modern</string>
+            <key>quote</key>  <string>Hasta la vista, baby</string>
+            <key>source</key>  <string>Terminator</string>
+        </dict>
+        <dict>
+            <key>category</key>  <string>modern</string>
+            <key>quote</key>  <string>I feel the need for speed.</string>
+            <key>source</key>  <string>Top Gun</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>modern</string>
+            <key>quote</key>  <string>It takes a great deal of bravery to stand up to your enemies, but a great deal more to stand up to your friends.</string>
+            <key>source</key>  <string>Harry Potter</string>
+        </dict>
+        <dict>
+            <key>category</key>  <string>modern</string>
+            <key>quote</key>  <string>I solemnly swear that I am up to no good.</string>
+            <key>source</key>  <string>Harry Potter</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>modern</string>
+            <key>quote</key>  <string>You like pain? Try wearing a corset.</string>
+            <key>source</key>  <string>Pirates of the Carribean</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>modern</string>
+            <key>quote</key>  <string>Houston, we have a problem.</string>
+            <key>source</key>  <string>Apollo 13</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>modern</string>
+            <key>quote</key>  <string>I'll be back.</string>
+            <key>source</key>  <string>The Terminator</string>
+        </dict>
+        <dict>
+            <key>category</key>  <string>modern</string>
+            <key>quote</key>  <string>E.T. phone home.</string>
+            <key>source</key>  <string>E.T.</string>
+        </dict>
+        
+        <dict>
+            <key>category</key>  <string>modern</string>
+            <key>quote</key>  <string>Yay I'm a Llamma again!...Wait</string>
+            <key>source</key>  <string>The Emperor's New Groove</string>
+        </dict>
+    </array>
+</plist>
