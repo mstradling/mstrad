@@ -12,22 +12,34 @@
 	<dict>
 		<key>6DBAA92966F6C0AD9FB8B0D1510EF46EC29BFF68</key>
 		<string>https://github.com/mstradling/origin.git</string>
+		<key>E052ED8CFCDCF81DCCA89FFB66F9664E2FE73F26</key>
+		<string>https://github.com/mstradling/mstrad.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Tap me/Tap me.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>6DBAA92966F6C0AD9FB8B0D1510EF46EC29BFF68</key>
+		<string>../../../../Practice%20Code</string>
+		<key>E052ED8CFCDCF81DCCA89FFB66F9664E2FE73F26</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/mstradling/origin.git</string>
+	<string>https://github.com/mstradling/mstrad.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>6DBAA92966F6C0AD9FB8B0D1510EF46EC29BFF68</string>
+	<string>E052ED8CFCDCF81DCCA89FFB66F9664E2FE73F26</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E052ED8CFCDCF81DCCA89FFB66F9664E2FE73F26</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AppDevelopment</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
