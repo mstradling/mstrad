@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/matthewfrederickstra/Desktop/AppDevelopment/QuoteQuiz/build/Debug-iphonesimulator/Pods-QuoteQuiz/SwiftyJSON.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/matthewfrederickstra/Desktop/AppDevelopment/QuoteQuiz/build/Pods.build/Debug-iphonesimulator/Pods-QuoteQuiz-SwiftyJSON.build/unextended-module.modulemap',
+    }]
+  }]
+}

@@ -1,0 +1,6 @@
+framework module FLKAutoLayout {
+  umbrella header "Pods-QuoteQuiz-FLKAutoLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02755B41FFEC5F8047CC7936 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8357BC8AEFC69E5B6E98B2B6 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02A4FDE5DE736AD3D339AD06 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE2FE5D66881A5D50AD4C77 /* UIRefreshControl+AFNetworking.m */; };
+		0583464BEA23EF5CD70DB283 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F771441C860A1B6813EE109 /* CoreGraphics.framework */; };
+		0608221AD0F39321EDE76489 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A093706E47D74EF25266CA13 /* UIWebView+AFNetworking.m */; };
+		0AF4B4F4624B252CD7EC51B7 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB8EB9E49BFF2F41A508101 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7827C4EA5FC620C7700F51 /* Pods-QuoteQuiz-SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 670C1449A4F3CD5BAEB0B9DB /* Pods-QuoteQuiz-SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		133C96D1F78DD9ACC2DBE645 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD22100BBDDD254CD76CA9F /* AFSecurityPolicy.m */; };
+		13A7A91647595D8769EF5CB3 /* Pods-QuoteQuiz-FLKAutoLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A916071EA15BE700CBD63F67 /* Pods-QuoteQuiz-FLKAutoLayout-dummy.m */; };
+		14D54A77F53D959BB9AB399B /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A3BFFE970B29D9AB54074A /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15B24627508D32D6E4CBE178 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C4181759E1AEFB4F2AAFDC5 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		160EA0AD47F075FAA3B112DC /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D94A70D4ABAAC9F676B0CF0F /* UIImageView+AFNetworking.m */; };
+		165D9906AB8D4143AFAD16C3 /* FLKAutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E0DF7D4158683A7A87070C /* FLKAutoLayout.framework */; };
+		1C0AA1183FDC625FF567E5FE /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A12C5979ED9DD39377C5F114 /* AFNetworkActivityIndicatorManager.m */; };
+		1C7BBDBBFC05ED4EC297D2EB /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 13B6E24D38E3FD7223055B8B /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F4D591DBA7DED21FBEE5BBC /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = E34D2A0197C28F364B825A61 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243AB97F2497F8C1448AD75A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59B5624B1B9DB0716C6CBEA /* Security.framework */; };
+		25AD2F0BF894F27FFA7F7EB7 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = B0F7418A0C0077486FAF6629 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25B75789BD2C119A1B3A08EC /* UIView+FLKAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 05469295C4AC3FA446E5E422 /* UIView+FLKAutoLayout.m */; };
+		26E0031456A4C3E0B024604E /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 503A6E48CF6C6AA6A4F19F3F /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ED1FD007BB76A71258EC1D0 /* Pods-QuoteQuiz-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD01EA286C8B68BA0862C0F /* Pods-QuoteQuiz-dummy.m */; };
+		32271E3E9EA15AFE8AC6B450 /* ORStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E374395772C6219322ACCC /* ORStackView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36DBD1431063C0DF68DE2421 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 075661E2DD100E60F17DFA91 /* UIAlertView+AFNetworking.m */; };
+		37B0F90F93CDE67862E1585D /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7700AE67900A8D39F12F4BCA /* AFURLRequestSerialization.m */; };
+		3AC0C107340B6660BE15E214 /* Pods-QuoteQuiz-ORStackView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15905B0B6FFA6FC4396BF802 /* Pods-QuoteQuiz-ORStackView-dummy.m */; };
+		419CBDF3D6ED50AE8E7032CD /* NSLayoutConstraint+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F63B6B904A6344119F72FFA /* NSLayoutConstraint+FLKAutoLayoutDebug.m */; };
+		41A4FABB1CF1D7E1D37DFC34 /* ORStackView+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EBFDE0A2A2B89D7834676E /* ORStackView+Private.m */; };
+		43A3C9639CCE99C0C842FDCB /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A03D46AA980BDF8A6621F6 /* SVProgressHUD.m */; };
+		4A38AD7C4BF5642831523799 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D2467FAC1045D5D9E4CFE0 /* AFURLResponseSerialization.m */; };
+		4F411632C96672D05B7AA717 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE804299DDE229EC63C0D859 /* AFURLSessionManager.m */; };
+		52D3E2FD340B1D93D34AD7F2 /* Pods-QuoteQuiz-SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E259316ACF0BDE03E777CE /* Pods-QuoteQuiz-SwiftyJSON-dummy.m */; };
+		54B45F739AE0596D90DB56D3 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 932676C8836286A963E988DD /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5641E2BBF2B7D3E620990CC1 /* ORStackView+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 68979B85AD814C7FD39A9C78 /* ORStackView+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		571A80F2CE70BA6B622AC8FA /* UIView+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 03D08C6C56DE3985263F053D /* UIView+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		580FB84DD8C2A81C3AC659B4 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D2A3D9498B4327B6E02C13 /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A77B5A233FD632DAB9AFB39 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E888DDAF4DD352261E98D75 /* UIActivityIndicatorView+AFNetworking.m */; };
+		692AD8C00495E055E91E6ED0 /* Pods-QuoteQuiz-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCD6A184331CCE4ECBA2E2 /* Pods-QuoteQuiz-AFNetworking-dummy.m */; };
+		6E8C092B0688191B0C6FB303 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A906D1F24414A18B60E314 /* Foundation.framework */; };
+		73A6CE840F77EBD81D1F527D /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E01E9F845B53C3085D26A385 /* AFURLConnectionOperation.m */; };
+		74A296F422D16318BC981527 /* ORStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 563AA158A820A654AEAFF5E7 /* ORStackView.m */; };
+		76E91C4220C08AF82C6B5F94 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4702D2BF01EBB329266103E1 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D02A34403C4B9BD255860AC /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 51AD73E9869FB6D306883ED4 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8024D4148259387BA57A3FA9 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 100D1EE6BAFAB08DC46532B4 /* AFNetworkReachabilityManager.m */; };
+		8AEB72C6E3A072664A1CA35C /* Pods-QuoteQuiz-SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42961C177A32BCFF67DBF7A2 /* Pods-QuoteQuiz-SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9166FCAC6AE9B702EF934009 /* Pods-QuoteQuiz-SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1B857102F2139FFB0AB8CF /* Pods-QuoteQuiz-SVProgressHUD-dummy.m */; };
+		92D2B4963A44DDDCF5E38328 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C086197E3736F39D15AF4E7 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EB41E9C61668FFB214DFD20 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 173455473B1B64EC18062BD6 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F2E556749B5409060B46D40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A906D1F24414A18B60E314 /* Foundation.framework */; };
+		9F6BDC93DBF789DCB6294D75 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA80CA5DFFCD00F7C85E8EE /* AFHTTPRequestOperationManager.m */; };
+		A1CA1625F098CBB2838D905C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 830D26A80A1E4F7B236308C1 /* AFHTTPSessionManager.m */; };
+		A363351471258ED09BE9BD0E /* UIView+FLKAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 089725BD1EFFDD7C12C8BB27 /* UIView+FLKAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7E4147230D6FCEE4132A7D4 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FF3FACF564DCF2328BDAA2 /* UIButton+AFNetworking.m */; };
+		A91E153EB101F1BF8DD9D9E5 /* ORTagBasedAutoStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = C84FC155DAB4ACE53841A10A /* ORTagBasedAutoStackView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9C29CAE83342607CC2E3914 /* Pods-QuoteQuiz-AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39063C0A63FA91424B9B561B /* Pods-QuoteQuiz-AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB007F5E72BD8AB7EEBFA5D9 /* Pods-QuoteQuiz-FLKAutoLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E8DC08CFE1DBB7B198506E5 /* Pods-QuoteQuiz-FLKAutoLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0699F969E6DEA174EDDB477 /* FLKAutoLayoutPredicateList.h in Headers */ = {isa = PBXBuildFile; fileRef = B12F8A1BB122E6325652C26F /* FLKAutoLayoutPredicateList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0EE6ECD369C241782BCCD9F /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D6C77B51E21EE1EA06467FF7 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1283BEBB28B930ED05A34A1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A725F683C0F84FA560BF01CE /* QuartzCore.framework */; };
+		B67553D0E048DB6BE477BAFE /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AB563AB464971C4CFB843 /* SVIndefiniteAnimatedView.m */; };
+		B6787BA230192EE4D62563EE /* Pods-QuoteQuiz-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F3F574060E8020C5E8944A /* Pods-QuoteQuiz-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B85378A0EBE8BEAD793E1FAA /* UIView+FLKAutoLayoutPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E812045608D4B208DBF812 /* UIView+FLKAutoLayoutPredicate.m */; };
+		BA9C4FA14C18D5C1384878B3 /* ORSplitStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B6990F798815A659048D3 /* ORSplitStackView.m */; };
+		BB336B797E878322D3F22965 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F3C9E2DBAD7EF6C173BF26D /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8371634187FBDDF387D6699 /* ORStackScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 065E46797DD016FA5F324D08 /* ORStackScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA6BAC97478A38640DA5FAA7 /* NSLayoutConstraint+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 65CF4810B288F4F2DB1BCE8F /* NSLayoutConstraint+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC98D4AC8D795B699A2AB413 /* Pods-QuoteQuiz-ORStackView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97D9DFE4809D78EC526DB002 /* Pods-QuoteQuiz-ORStackView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDACAA71DBC7BEF61917B445 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 15FDC31A2A25B7D93F9876F3 /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF9D99F4BD29FDBE4985BAFB /* ORSplitStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EED5B8B484B89CBEA95C611 /* ORSplitStackView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0C8CC5176A0E8B3EA8E6773 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A906D1F24414A18B60E314 /* Foundation.framework */; };
+		D1FD0D56C7EDBBAC0DBDAF4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A906D1F24414A18B60E314 /* Foundation.framework */; };
+		D350A6CD72F8BB6F2B0564C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A906D1F24414A18B60E314 /* Foundation.framework */; };
+		D63055FB92AA49172427E074 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C95882268AA059759643E26D /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D63D9C3BB6816367807E3863 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 862AA609142A921AED9A81CD /* UIProgressView+AFNetworking.m */; };
+		D6CF359135E0F0945501511D /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AA88C2A26F976F4F678F661 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA06EFD36A5FAFFFD19FC085 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = E6217E789EE59EA2EE97D7FE /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE2747F8A8358864A901F63B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F73A46D38963B9513F45CB5B /* SystemConfiguration.framework */; };
+		DFF18D6E10FF033F38D1FB3E /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 282547BF9B077520237030C2 /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4B4DC0307A2FCE4783A7967 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF6263110EFA0EA68509B2C /* SwiftyJSON.swift */; };
+		E5FDEC77554650F9FF4A8A13 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ACC3E68A958B92AD7D898F /* AFHTTPRequestOperation.m */; };
+		E91E8FB1149B932850C94240 /* UIView+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = B15DE1EDDBCC106C93671145 /* UIView+FLKAutoLayoutDebug.m */; };
+		F0C1AFB6D91A31C57D795E8A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FE79D65E6E4AB8B7F64DFA /* MobileCoreServices.framework */; };
+		F3880A0A4A0C5B7E060D4D0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A906D1F24414A18B60E314 /* Foundation.framework */; };
+		F5EB302A3B72C71FAE981185 /* ORTagBasedAutoStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BCC23660E8A4321CCFA030 /* ORTagBasedAutoStackView.m */; };
+		F6704D7118F7047ABE778F58 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 956874BA66FB1566FC85DC6E /* SVProgressHUD.bundle */; };
+		F89C8D40783082F629A92D95 /* ORStackScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA51702C61951ACFFBEBCBB /* ORStackScrollView.m */; };
+		FC3481C8581EE17D749DB577 /* FLKAutoLayoutPredicateList.m in Sources */ = {isa = PBXBuildFile; fileRef = AB045C76C8202F5A4907FBC8 /* FLKAutoLayoutPredicateList.m */; };
+		FC3F7392884579246857D8D7 /* UIView+FLKAutoLayoutPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = A990F8672930D77FECA57C9F /* UIView+FLKAutoLayoutPredicate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52E4790576187CE4C92DE908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E47E0F3E9371781F4151D90C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6154D4271D1F4CDCD844AA8;
+			remoteInfo = "Pods-QuoteQuiz-SVProgressHUD";
+		};
+		54AED9C81B493E484C2493E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E47E0F3E9371781F4151D90C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BE38C86B23054992B0DDEE9;
+			remoteInfo = "Pods-QuoteQuiz-AFNetworking";
+		};
+		562B2EAB769B70BE014C8BF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E47E0F3E9371781F4151D90C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 904732D7B89A53204E4A1CAF;
+			remoteInfo = "Pods-QuoteQuiz-FLKAutoLayout";
+		};
+		9E107A7B3F757C698B2D46B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E47E0F3E9371781F4151D90C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78EADC0CED5624F02FC1DB6A;
+			remoteInfo = "Pods-QuoteQuiz-SwiftyJSON";
+		};
+		C9369183EF7EEE16C6EDB2B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E47E0F3E9371781F4151D90C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9869476BB89383518086F5D9;
+			remoteInfo = "Pods-QuoteQuiz-ORStackView";
+		};
+		E3C85CD27BDA036DAFB30C9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E47E0F3E9371781F4151D90C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 904732D7B89A53204E4A1CAF;
+			remoteInfo = "Pods-QuoteQuiz-FLKAutoLayout";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A906D1F24414A18B60E314 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		03D08C6C56DE3985263F053D /* UIView+FLKAutoLayoutDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayoutDebug.h"; path = "FLKAutoLayout/UIView+FLKAutoLayoutDebug.h"; sourceTree = "<group>"; };
+		05469295C4AC3FA446E5E422 /* UIView+FLKAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayout.m"; path = "FLKAutoLayout/UIView+FLKAutoLayout.m"; sourceTree = "<group>"; };
+		065E46797DD016FA5F324D08 /* ORStackScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORStackScrollView.h; path = Classes/ios/ORStackScrollView.h; sourceTree = "<group>"; };
+		075661E2DD100E60F17DFA91 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		089725BD1EFFDD7C12C8BB27 /* UIView+FLKAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayout.h"; path = "FLKAutoLayout/UIView+FLKAutoLayout.h"; sourceTree = "<group>"; };
+		0AC48318D095F2589F2D70DF /* Pods-QuoteQuiz-FLKAutoLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QuoteQuiz-FLKAutoLayout.modulemap"; sourceTree = "<group>"; };
+		0CB8EB9E49BFF2F41A508101 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		0DA80CA5DFFCD00F7C85E8EE /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		0DFCD6A184331CCE4ECBA2E2 /* Pods-QuoteQuiz-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuoteQuiz-AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		0F63B6B904A6344119F72FFA /* NSLayoutConstraint+FLKAutoLayoutDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+FLKAutoLayoutDebug.m"; path = "FLKAutoLayout/NSLayoutConstraint+FLKAutoLayoutDebug.m"; sourceTree = "<group>"; };
+		100D1EE6BAFAB08DC46532B4 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		12B68B0CAF25C8950D87BF5B /* Pods-QuoteQuiz-SVProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuoteQuiz-SVProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
+		12E0DF7D4158683A7A87070C /* FLKAutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLKAutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B6E24D38E3FD7223055B8B /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		14A5B5787D6655FA80644879 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15905B0B6FFA6FC4396BF802 /* Pods-QuoteQuiz-ORStackView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuoteQuiz-ORStackView-dummy.m"; sourceTree = "<group>"; };
+		15FDC31A2A25B7D93F9876F3 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		173455473B1B64EC18062BD6 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		1BB7703CCCDA7E0EC089FD7E /* Pods-QuoteQuiz-ORStackView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuoteQuiz-ORStackView.xcconfig"; sourceTree = "<group>"; };
+		1D713C8301E59A7F52560BB2 /* Pods-QuoteQuiz-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuoteQuiz-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		1DA88BB135A23ABFC5C56E9D /* Pods-QuoteQuiz-SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuoteQuiz-SwiftyJSON.xcconfig"; sourceTree = "<group>"; };
+		282547BF9B077520237030C2 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		2AD22100BBDDD254CD76CA9F /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		2B1B857102F2139FFB0AB8CF /* Pods-QuoteQuiz-SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuoteQuiz-SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		2D22DBC2CD96F3881DF3314B /* Pods-QuoteQuiz-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuoteQuiz-acknowledgements.plist"; sourceTree = "<group>"; };
+		2EED5B8B484B89CBEA95C611 /* ORSplitStackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSplitStackView.h; path = Classes/ios/ORSplitStackView.h; sourceTree = "<group>"; };
+		31F986F831A7E9F2E4FD830F /* Pods-QuoteQuiz.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QuoteQuiz.modulemap"; sourceTree = "<group>"; };
+		38E259316ACF0BDE03E777CE /* Pods-QuoteQuiz-SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuoteQuiz-SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		39063C0A63FA91424B9B561B /* Pods-QuoteQuiz-AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuoteQuiz-AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		42961C177A32BCFF67DBF7A2 /* Pods-QuoteQuiz-SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuoteQuiz-SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		4444E789DD4DCC06EFD67E3D /* Pods-QuoteQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuoteQuiz.release.xcconfig"; sourceTree = "<group>"; };
+		44E259FC97DF81C660A3204F /* Pods-QuoteQuiz-SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuoteQuiz-SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		44E815758C0D583765B46821 /* Pods-QuoteQuiz-SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuoteQuiz-SVProgressHUD.xcconfig"; sourceTree = "<group>"; };
+		4702D2BF01EBB329266103E1 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		4B61A7F40E5B8A01A7E9D680 /* Pods-QuoteQuiz-SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuoteQuiz-SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		4BA51702C61951ACFFBEBCBB /* ORStackScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORStackScrollView.m; path = Classes/ios/ORStackScrollView.m; sourceTree = "<group>"; };
+		4C3AB563AB464971C4CFB843 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		4C4181759E1AEFB4F2AAFDC5 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		503A6E48CF6C6AA6A4F19F3F /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		50436689357C6D4DCFCD15C1 /* Pods-QuoteQuiz-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuoteQuiz-resources.sh"; sourceTree = "<group>"; };
+		51AD73E9869FB6D306883ED4 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		563AA158A820A654AEAFF5E7 /* ORStackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORStackView.m; path = Classes/ios/ORStackView.m; sourceTree = "<group>"; };
+		5898727BFBCA0F555A4CC5C9 /* Pods-QuoteQuiz-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuoteQuiz-frameworks.sh"; sourceTree = "<group>"; };
+		65CF4810B288F4F2DB1BCE8F /* NSLayoutConstraint+FLKAutoLayoutDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+FLKAutoLayoutDebug.h"; path = "FLKAutoLayout/NSLayoutConstraint+FLKAutoLayoutDebug.h"; sourceTree = "<group>"; };
+		670C1449A4F3CD5BAEB0B9DB /* Pods-QuoteQuiz-SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuoteQuiz-SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		68979B85AD814C7FD39A9C78 /* ORStackView+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ORStackView+Private.h"; path = "Classes/ios/private/ORStackView+Private.h"; sourceTree = "<group>"; };
+		6C086197E3736F39D15AF4E7 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		6CA67B7793FED1655D0B314B /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8DC08CFE1DBB7B198506E5 /* Pods-QuoteQuiz-FLKAutoLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuoteQuiz-FLKAutoLayout-umbrella.h"; sourceTree = "<group>"; };
+		70E94549EA575F8C789F9221 /* Pods-QuoteQuiz-FLKAutoLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuoteQuiz-FLKAutoLayout.xcconfig"; sourceTree = "<group>"; };
+		7700AE67900A8D39F12F4BCA /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		79C7C724FF9002A74D84260D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AE2FE5D66881A5D50AD4C77 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		7C29CCB22D9475E4B1A47D96 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD01EA286C8B68BA0862C0F /* Pods-QuoteQuiz-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuoteQuiz-dummy.m"; sourceTree = "<group>"; };
+		7E888DDAF4DD352261E98D75 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		830D26A80A1E4F7B236308C1 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		8357BC8AEFC69E5B6E98B2B6 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		85418250AF595A7DCD5B91E8 /* Pods-QuoteQuiz-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuoteQuiz-acknowledgements.markdown"; sourceTree = "<group>"; };
+		862AA609142A921AED9A81CD /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		89CD4C0A7C3AB12A64F26FA6 /* ORStackView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ORStackView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AA88C2A26F976F4F678F661 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		8C81D6C3FDDEB22FD61DA977 /* Pods-QuoteQuiz-SwiftyJSON-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuoteQuiz-SwiftyJSON-Private.xcconfig"; sourceTree = "<group>"; };
+		8D6B6990F798815A659048D3 /* ORSplitStackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSplitStackView.m; path = Classes/ios/ORSplitStackView.m; sourceTree = "<group>"; };
+		8F3C9E2DBAD7EF6C173BF26D /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		8F771441C860A1B6813EE109 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		904963375046F47CB12A853E /* Pods-QuoteQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuoteQuiz.debug.xcconfig"; sourceTree = "<group>"; };
+		91E812045608D4B208DBF812 /* UIView+FLKAutoLayoutPredicate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayoutPredicate.m"; path = "FLKAutoLayout/UIView+FLKAutoLayoutPredicate.m"; sourceTree = "<group>"; };
+		927CD4E2F95E8D5D6885C6B4 /* Pods-QuoteQuiz-FLKAutoLayout-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuoteQuiz-FLKAutoLayout-Private.xcconfig"; sourceTree = "<group>"; };
+		932676C8836286A963E988DD /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		956874BA66FB1566FC85DC6E /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		97D9DFE4809D78EC526DB002 /* Pods-QuoteQuiz-ORStackView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuoteQuiz-ORStackView-umbrella.h"; sourceTree = "<group>"; };
+		9F7DA5BD6AD7ED7D9E68810D /* Pods-QuoteQuiz-ORStackView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QuoteQuiz-ORStackView.modulemap"; sourceTree = "<group>"; };
+		A058AF94DE9F36AB412CF72F /* Pods-QuoteQuiz-SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QuoteQuiz-SVProgressHUD.modulemap"; sourceTree = "<group>"; };
+		A093706E47D74EF25266CA13 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		A12C5979ED9DD39377C5F114 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		A3A03D46AA980BDF8A6621F6 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		A4DA06D5F1D33362BB01013C /* Pods-QuoteQuiz-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuoteQuiz-environment.h"; sourceTree = "<group>"; };
+		A725F683C0F84FA560BF01CE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A784F4E6E4E7CAEFD410D6BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A916071EA15BE700CBD63F67 /* Pods-QuoteQuiz-FLKAutoLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuoteQuiz-FLKAutoLayout-dummy.m"; sourceTree = "<group>"; };
+		A990F8672930D77FECA57C9F /* UIView+FLKAutoLayoutPredicate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayoutPredicate.h"; path = "FLKAutoLayout/UIView+FLKAutoLayoutPredicate.h"; sourceTree = "<group>"; };
+		A9D2A3D9498B4327B6E02C13 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		AAE319DE710483EACCDEB5CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB045C76C8202F5A4907FBC8 /* FLKAutoLayoutPredicateList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLKAutoLayoutPredicateList.m; path = FLKAutoLayout/FLKAutoLayoutPredicateList.m; sourceTree = "<group>"; };
+		AB3D25797C17FFF24A636DCA /* Pods-QuoteQuiz-ORStackView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuoteQuiz-ORStackView-prefix.pch"; sourceTree = "<group>"; };
+		ADB3FD1E2EB49D15AC60EF34 /* Pods-QuoteQuiz-ORStackView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuoteQuiz-ORStackView-Private.xcconfig"; sourceTree = "<group>"; };
+		AF4883BB444B38DD51B91777 /* Pods-QuoteQuiz-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuoteQuiz-AFNetworking.xcconfig"; sourceTree = "<group>"; };
+		B0F7418A0C0077486FAF6629 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		B12F8A1BB122E6325652C26F /* FLKAutoLayoutPredicateList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLKAutoLayoutPredicateList.h; path = FLKAutoLayout/FLKAutoLayoutPredicateList.h; sourceTree = "<group>"; };
+		B15DE1EDDBCC106C93671145 /* UIView+FLKAutoLayoutDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayoutDebug.m"; path = "FLKAutoLayout/UIView+FLKAutoLayoutDebug.m"; sourceTree = "<group>"; };
+		B1FCE66F68182471E8DD67A6 /* Pods-QuoteQuiz-AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuoteQuiz-AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
+		B2EA7D39A34B2D1E0768EBB0 /* Pods-QuoteQuiz-AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QuoteQuiz-AFNetworking.modulemap"; sourceTree = "<group>"; };
+		B2FE79D65E6E4AB8B7F64DFA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		B3A3BFFE970B29D9AB54074A /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		B51FFDF96E34832168A7035C /* FLKAutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLKAutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6FF3FACF564DCF2328BDAA2 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		B7059DC7697E83CF50FF99A7 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B966D55B1ADE69234216AD30 /* Pods-QuoteQuiz-SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QuoteQuiz-SwiftyJSON.modulemap"; sourceTree = "<group>"; };
+		BA83BF5716AE67B22B3C8984 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE804299DDE229EC63C0D859 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		C5F3F574060E8020C5E8944A /* Pods-QuoteQuiz-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuoteQuiz-umbrella.h"; sourceTree = "<group>"; };
+		C84FC155DAB4ACE53841A10A /* ORTagBasedAutoStackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORTagBasedAutoStackView.h; path = Classes/ios/ORTagBasedAutoStackView.h; sourceTree = "<group>"; };
+		C95882268AA059759643E26D /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		D2E374395772C6219322ACCC /* ORStackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORStackView.h; path = Classes/ios/ORStackView.h; sourceTree = "<group>"; };
+		D59B5624B1B9DB0716C6CBEA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		D5D5BCB38D2373BE96043C0D /* Pods_QuoteQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuoteQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C77B51E21EE1EA06467FF7 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		D94A70D4ABAAC9F676B0CF0F /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		E01E9F845B53C3085D26A385 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		E34D2A0197C28F364B825A61 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		E61BCEA0D9F172DB8185CBC6 /* Pods-QuoteQuiz-FLKAutoLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuoteQuiz-FLKAutoLayout-prefix.pch"; sourceTree = "<group>"; };
+		E6217E789EE59EA2EE97D7FE /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		E8BCC23660E8A4321CCFA030 /* ORTagBasedAutoStackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORTagBasedAutoStackView.m; path = Classes/ios/ORTagBasedAutoStackView.m; sourceTree = "<group>"; };
+		E8EBFDE0A2A2B89D7834676E /* ORStackView+Private.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ORStackView+Private.m"; path = "Classes/ios/private/ORStackView+Private.m"; sourceTree = "<group>"; };
+		E9ACC3E68A958B92AD7D898F /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		E9D2467FAC1045D5D9E4CFE0 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		EBAABE0AEF994F624FAFF24D /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EFF6263110EFA0EA68509B2C /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		F419F3A9E63B3348D5ADE826 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F73A46D38963B9513F45CB5B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		369A89BA3B95FCD967306E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8C092B0688191B0C6FB303 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42AFE14816E7E90B5E60BFAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0583464BEA23EF5CD70DB283 /* CoreGraphics.framework in Frameworks */,
+				F3880A0A4A0C5B7E060D4D0E /* Foundation.framework in Frameworks */,
+				F0C1AFB6D91A31C57D795E8A /* MobileCoreServices.framework in Frameworks */,
+				243AB97F2497F8C1448AD75A /* Security.framework in Frameworks */,
+				DE2747F8A8358864A901F63B /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83AF19A911D2BF58F77EF291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C8CC5176A0E8B3EA8E6773 /* Foundation.framework in Frameworks */,
+				B1283BEBB28B930ED05A34A1 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE4634D6017066876986E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D350A6CD72F8BB6F2B0564C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1658A84420BD57AA34BA045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165D9906AB8D4143AFAD16C3 /* FLKAutoLayout.framework in Frameworks */,
+				9F2E556749B5409060B46D40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B482FA2C8A290352D6A478FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1FD0D56C7EDBBAC0DBDAF4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00208BF0DE93A69CD78E803E /* ORStackView */ = {
+			isa = PBXGroup;
+			children = (
+				2EED5B8B484B89CBEA95C611 /* ORSplitStackView.h */,
+				8D6B6990F798815A659048D3 /* ORSplitStackView.m */,
+				065E46797DD016FA5F324D08 /* ORStackScrollView.h */,
+				4BA51702C61951ACFFBEBCBB /* ORStackScrollView.m */,
+				D2E374395772C6219322ACCC /* ORStackView.h */,
+				563AA158A820A654AEAFF5E7 /* ORStackView.m */,
+				68979B85AD814C7FD39A9C78 /* ORStackView+Private.h */,
+				E8EBFDE0A2A2B89D7834676E /* ORStackView+Private.m */,
+				C84FC155DAB4ACE53841A10A /* ORTagBasedAutoStackView.h */,
+				E8BCC23660E8A4321CCFA030 /* ORTagBasedAutoStackView.m */,
+				9296CE916FFB2144CDD066BD /* Support Files */,
+			);
+			path = ORStackView;
+			sourceTree = "<group>";
+		};
+		01A1B06DF1EE68F6E524D577 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				EFF6263110EFA0EA68509B2C /* SwiftyJSON.swift */,
+				4E2C3AE5C50DE5F62EDF8D96 /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		02D1FB676DB00DCBA28E9BDE /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				B0F7418A0C0077486FAF6629 /* AFSecurityPolicy.h */,
+				2AD22100BBDDD254CD76CA9F /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		0EF184803A46395F2F611972 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F419F3A9E63B3348D5ADE826 /* Info.plist */,
+				A058AF94DE9F36AB412CF72F /* Pods-QuoteQuiz-SVProgressHUD.modulemap */,
+				44E815758C0D583765B46821 /* Pods-QuoteQuiz-SVProgressHUD.xcconfig */,
+				12B68B0CAF25C8950D87BF5B /* Pods-QuoteQuiz-SVProgressHUD-Private.xcconfig */,
+				2B1B857102F2139FFB0AB8CF /* Pods-QuoteQuiz-SVProgressHUD-dummy.m */,
+				4B61A7F40E5B8A01A7E9D680 /* Pods-QuoteQuiz-SVProgressHUD-prefix.pch */,
+				670C1449A4F3CD5BAEB0B9DB /* Pods-QuoteQuiz-SVProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-QuoteQuiz-SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		20425AFF02FB542F5002ACA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C29CCB22D9475E4B1A47D96 /* AFNetworking.framework */,
+				B51FFDF96E34832168A7035C /* FLKAutoLayout.framework */,
+				89CD4C0A7C3AB12A64F26FA6 /* ORStackView.framework */,
+				D5D5BCB38D2373BE96043C0D /* Pods_QuoteQuiz.framework */,
+				6CA67B7793FED1655D0B314B /* SVProgressHUD.framework */,
+				B7059DC7697E83CF50FF99A7 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		293CBBA0B8565F7E441E9D86 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B3A3BFFE970B29D9AB54074A /* AFNetworkActivityIndicatorManager.h */,
+				A12C5979ED9DD39377C5F114 /* AFNetworkActivityIndicatorManager.m */,
+				4C4181759E1AEFB4F2AAFDC5 /* UIActivityIndicatorView+AFNetworking.h */,
+				7E888DDAF4DD352261E98D75 /* UIActivityIndicatorView+AFNetworking.m */,
+				282547BF9B077520237030C2 /* UIAlertView+AFNetworking.h */,
+				075661E2DD100E60F17DFA91 /* UIAlertView+AFNetworking.m */,
+				173455473B1B64EC18062BD6 /* UIButton+AFNetworking.h */,
+				B6FF3FACF564DCF2328BDAA2 /* UIButton+AFNetworking.m */,
+				503A6E48CF6C6AA6A4F19F3F /* UIImageView+AFNetworking.h */,
+				D94A70D4ABAAC9F676B0CF0F /* UIImageView+AFNetworking.m */,
+				D6C77B51E21EE1EA06467FF7 /* UIKit+AFNetworking.h */,
+				932676C8836286A963E988DD /* UIProgressView+AFNetworking.h */,
+				862AA609142A921AED9A81CD /* UIProgressView+AFNetworking.m */,
+				6C086197E3736F39D15AF4E7 /* UIRefreshControl+AFNetworking.h */,
+				7AE2FE5D66881A5D50AD4C77 /* UIRefreshControl+AFNetworking.m */,
+				51AD73E9869FB6D306883ED4 /* UIWebView+AFNetworking.h */,
+				A093706E47D74EF25266CA13 /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		2D7E75AEB03DE74E8C1D1443 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				C95882268AA059759643E26D /* AFNetworking.h */,
+				570EEA3B102A7EABF1639014 /* NSURLConnection */,
+				5760BA66314A11333FE91620 /* NSURLSession */,
+				7F421FF4E19EA39F4A918457 /* Reachability */,
+				02D1FB676DB00DCBA28E9BDE /* Security */,
+				D3A1CCE8C7B969ED3148B346 /* Serialization */,
+				FA3739B3264F265954AC7E56 /* Support Files */,
+				293CBBA0B8565F7E441E9D86 /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		4E2C3AE5C50DE5F62EDF8D96 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				14A5B5787D6655FA80644879 /* Info.plist */,
+				B966D55B1ADE69234216AD30 /* Pods-QuoteQuiz-SwiftyJSON.modulemap */,
+				1DA88BB135A23ABFC5C56E9D /* Pods-QuoteQuiz-SwiftyJSON.xcconfig */,
+				8C81D6C3FDDEB22FD61DA977 /* Pods-QuoteQuiz-SwiftyJSON-Private.xcconfig */,
+				38E259316ACF0BDE03E777CE /* Pods-QuoteQuiz-SwiftyJSON-dummy.m */,
+				44E259FC97DF81C660A3204F /* Pods-QuoteQuiz-SwiftyJSON-prefix.pch */,
+				42961C177A32BCFF67DBF7A2 /* Pods-QuoteQuiz-SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-QuoteQuiz-SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		53EDE5B1BF3169079A041590 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCD55E9856BB5887B59498D9 /* Pods-QuoteQuiz */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		55D848B755B81989DE00D636 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12E0DF7D4158683A7A87070C /* FLKAutoLayout.framework */,
+				ABFA7F415F73A5A03ECA713B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		570EEA3B102A7EABF1639014 /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				8357BC8AEFC69E5B6E98B2B6 /* AFHTTPRequestOperation.h */,
+				E9ACC3E68A958B92AD7D898F /* AFHTTPRequestOperation.m */,
+				A9D2A3D9498B4327B6E02C13 /* AFHTTPRequestOperationManager.h */,
+				0DA80CA5DFFCD00F7C85E8EE /* AFHTTPRequestOperationManager.m */,
+				15FDC31A2A25B7D93F9876F3 /* AFURLConnectionOperation.h */,
+				E01E9F845B53C3085D26A385 /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		5760BA66314A11333FE91620 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				8F3C9E2DBAD7EF6C173BF26D /* AFHTTPSessionManager.h */,
+				830D26A80A1E4F7B236308C1 /* AFHTTPSessionManager.m */,
+				0CB8EB9E49BFF2F41A508101 /* AFURLSessionManager.h */,
+				BE804299DDE229EC63C0D859 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		59886AC08424879F178D8A5F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				956874BA66FB1566FC85DC6E /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F421FF4E19EA39F4A918457 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				4702D2BF01EBB329266103E1 /* AFNetworkReachabilityManager.h */,
+				100D1EE6BAFAB08DC46532B4 /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		9296CE916FFB2144CDD066BD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAE319DE710483EACCDEB5CE /* Info.plist */,
+				9F7DA5BD6AD7ED7D9E68810D /* Pods-QuoteQuiz-ORStackView.modulemap */,
+				1BB7703CCCDA7E0EC089FD7E /* Pods-QuoteQuiz-ORStackView.xcconfig */,
+				ADB3FD1E2EB49D15AC60EF34 /* Pods-QuoteQuiz-ORStackView-Private.xcconfig */,
+				15905B0B6FFA6FC4396BF802 /* Pods-QuoteQuiz-ORStackView-dummy.m */,
+				AB3D25797C17FFF24A636DCA /* Pods-QuoteQuiz-ORStackView-prefix.pch */,
+				97D9DFE4809D78EC526DB002 /* Pods-QuoteQuiz-ORStackView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-QuoteQuiz-ORStackView";
+			sourceTree = "<group>";
+		};
+		A796EC83200420C9798F2568 = {
+			isa = PBXGroup;
+			children = (
+				EBAABE0AEF994F624FAFF24D /* Podfile */,
+				55D848B755B81989DE00D636 /* Frameworks */,
+				CF4A3242FA7A372722D32E05 /* Pods */,
+				20425AFF02FB542F5002ACA4 /* Products */,
+				53EDE5B1BF3169079A041590 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		ABFA7F415F73A5A03ECA713B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8F771441C860A1B6813EE109 /* CoreGraphics.framework */,
+				01A906D1F24414A18B60E314 /* Foundation.framework */,
+				B2FE79D65E6E4AB8B7F64DFA /* MobileCoreServices.framework */,
+				A725F683C0F84FA560BF01CE /* QuartzCore.framework */,
+				D59B5624B1B9DB0716C6CBEA /* Security.framework */,
+				F73A46D38963B9513F45CB5B /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C7DAAE4BE84880A058D7A7C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA83BF5716AE67B22B3C8984 /* Info.plist */,
+				0AC48318D095F2589F2D70DF /* Pods-QuoteQuiz-FLKAutoLayout.modulemap */,
+				70E94549EA575F8C789F9221 /* Pods-QuoteQuiz-FLKAutoLayout.xcconfig */,
+				927CD4E2F95E8D5D6885C6B4 /* Pods-QuoteQuiz-FLKAutoLayout-Private.xcconfig */,
+				A916071EA15BE700CBD63F67 /* Pods-QuoteQuiz-FLKAutoLayout-dummy.m */,
+				E61BCEA0D9F172DB8185CBC6 /* Pods-QuoteQuiz-FLKAutoLayout-prefix.pch */,
+				6E8DC08CFE1DBB7B198506E5 /* Pods-QuoteQuiz-FLKAutoLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-QuoteQuiz-FLKAutoLayout";
+			sourceTree = "<group>";
+		};
+		CF4A3242FA7A372722D32E05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D7E75AEB03DE74E8C1D1443 /* AFNetworking */,
+				DFA67FA195662259A10F0E3A /* FLKAutoLayout */,
+				00208BF0DE93A69CD78E803E /* ORStackView */,
+				D12ECD764E31A0AA74F86F68 /* SVProgressHUD */,
+				01A1B06DF1EE68F6E524D577 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D12ECD764E31A0AA74F86F68 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E34D2A0197C28F364B825A61 /* SVIndefiniteAnimatedView.h */,
+				4C3AB563AB464971C4CFB843 /* SVIndefiniteAnimatedView.m */,
+				8AA88C2A26F976F4F678F661 /* SVProgressHUD.h */,
+				A3A03D46AA980BDF8A6621F6 /* SVProgressHUD.m */,
+				59886AC08424879F178D8A5F /* Resources */,
+				0EF184803A46395F2F611972 /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		D3A1CCE8C7B969ED3148B346 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				E6217E789EE59EA2EE97D7FE /* AFURLRequestSerialization.h */,
+				7700AE67900A8D39F12F4BCA /* AFURLRequestSerialization.m */,
+				13B6E24D38E3FD7223055B8B /* AFURLResponseSerialization.h */,
+				E9D2467FAC1045D5D9E4CFE0 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		DFA67FA195662259A10F0E3A /* FLKAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				B12F8A1BB122E6325652C26F /* FLKAutoLayoutPredicateList.h */,
+				AB045C76C8202F5A4907FBC8 /* FLKAutoLayoutPredicateList.m */,
+				65CF4810B288F4F2DB1BCE8F /* NSLayoutConstraint+FLKAutoLayoutDebug.h */,
+				0F63B6B904A6344119F72FFA /* NSLayoutConstraint+FLKAutoLayoutDebug.m */,
+				089725BD1EFFDD7C12C8BB27 /* UIView+FLKAutoLayout.h */,
+				05469295C4AC3FA446E5E422 /* UIView+FLKAutoLayout.m */,
+				03D08C6C56DE3985263F053D /* UIView+FLKAutoLayoutDebug.h */,
+				B15DE1EDDBCC106C93671145 /* UIView+FLKAutoLayoutDebug.m */,
+				A990F8672930D77FECA57C9F /* UIView+FLKAutoLayoutPredicate.h */,
+				91E812045608D4B208DBF812 /* UIView+FLKAutoLayoutPredicate.m */,
+				C7DAAE4BE84880A058D7A7C9 /* Support Files */,
+			);
+			path = FLKAutoLayout;
+			sourceTree = "<group>";
+		};
+		FA3739B3264F265954AC7E56 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				79C7C724FF9002A74D84260D /* Info.plist */,
+				B2EA7D39A34B2D1E0768EBB0 /* Pods-QuoteQuiz-AFNetworking.modulemap */,
+				AF4883BB444B38DD51B91777 /* Pods-QuoteQuiz-AFNetworking.xcconfig */,
+				B1FCE66F68182471E8DD67A6 /* Pods-QuoteQuiz-AFNetworking-Private.xcconfig */,
+				0DFCD6A184331CCE4ECBA2E2 /* Pods-QuoteQuiz-AFNetworking-dummy.m */,
+				1D713C8301E59A7F52560BB2 /* Pods-QuoteQuiz-AFNetworking-prefix.pch */,
+				39063C0A63FA91424B9B561B /* Pods-QuoteQuiz-AFNetworking-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-QuoteQuiz-AFNetworking";
+			sourceTree = "<group>";
+		};
+		FCD55E9856BB5887B59498D9 /* Pods-QuoteQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				A784F4E6E4E7CAEFD410D6BD /* Info.plist */,
+				31F986F831A7E9F2E4FD830F /* Pods-QuoteQuiz.modulemap */,
+				85418250AF595A7DCD5B91E8 /* Pods-QuoteQuiz-acknowledgements.markdown */,
+				2D22DBC2CD96F3881DF3314B /* Pods-QuoteQuiz-acknowledgements.plist */,
+				7DD01EA286C8B68BA0862C0F /* Pods-QuoteQuiz-dummy.m */,
+				A4DA06D5F1D33362BB01013C /* Pods-QuoteQuiz-environment.h */,
+				5898727BFBCA0F555A4CC5C9 /* Pods-QuoteQuiz-frameworks.sh */,
+				50436689357C6D4DCFCD15C1 /* Pods-QuoteQuiz-resources.sh */,
+				C5F3F574060E8020C5E8944A /* Pods-QuoteQuiz-umbrella.h */,
+				904963375046F47CB12A853E /* Pods-QuoteQuiz.debug.xcconfig */,
+				4444E789DD4DCC06EFD67E3D /* Pods-QuoteQuiz.release.xcconfig */,
+			);
+			name = "Pods-QuoteQuiz";
+			path = "Target Support Files/Pods-QuoteQuiz";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4B84E75A2A3039769DE69E50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9D99F4BD29FDBE4985BAFB /* ORSplitStackView.h in Headers */,
+				C8371634187FBDDF387D6699 /* ORStackScrollView.h in Headers */,
+				5641E2BBF2B7D3E620990CC1 /* ORStackView+Private.h in Headers */,
+				32271E3E9EA15AFE8AC6B450 /* ORStackView.h in Headers */,
+				A91E153EB101F1BF8DD9D9E5 /* ORTagBasedAutoStackView.h in Headers */,
+				CC98D4AC8D795B699A2AB413 /* Pods-QuoteQuiz-ORStackView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E67BA90E6513A0C7164177 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6787BA230192EE4D62563EE /* Pods-QuoteQuiz-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9041515922BFF186C3943255 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B7827C4EA5FC620C7700F51 /* Pods-QuoteQuiz-SVProgressHUD-umbrella.h in Headers */,
+				1F4D591DBA7DED21FBEE5BBC /* SVIndefiniteAnimatedView.h in Headers */,
+				D6CF359135E0F0945501511D /* SVProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E7D6199A53BD706EE13E31D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02755B41FFEC5F8047CC7936 /* AFHTTPRequestOperation.h in Headers */,
+				580FB84DD8C2A81C3AC659B4 /* AFHTTPRequestOperationManager.h in Headers */,
+				BB336B797E878322D3F22965 /* AFHTTPSessionManager.h in Headers */,
+				14D54A77F53D959BB9AB399B /* AFNetworkActivityIndicatorManager.h in Headers */,
+				76E91C4220C08AF82C6B5F94 /* AFNetworkReachabilityManager.h in Headers */,
+				D63055FB92AA49172427E074 /* AFNetworking.h in Headers */,
+				25AD2F0BF894F27FFA7F7EB7 /* AFSecurityPolicy.h in Headers */,
+				CDACAA71DBC7BEF61917B445 /* AFURLConnectionOperation.h in Headers */,
+				DA06EFD36A5FAFFFD19FC085 /* AFURLRequestSerialization.h in Headers */,
+				1C7BBDBBFC05ED4EC297D2EB /* AFURLResponseSerialization.h in Headers */,
+				0AF4B4F4624B252CD7EC51B7 /* AFURLSessionManager.h in Headers */,
+				A9C29CAE83342607CC2E3914 /* Pods-QuoteQuiz-AFNetworking-umbrella.h in Headers */,
+				15B24627508D32D6E4CBE178 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				DFF18D6E10FF033F38D1FB3E /* UIAlertView+AFNetworking.h in Headers */,
+				9EB41E9C61668FFB214DFD20 /* UIButton+AFNetworking.h in Headers */,
+				26E0031456A4C3E0B024604E /* UIImageView+AFNetworking.h in Headers */,
+				B0EE6ECD369C241782BCCD9F /* UIKit+AFNetworking.h in Headers */,
+				54B45F739AE0596D90DB56D3 /* UIProgressView+AFNetworking.h in Headers */,
+				92D2B4963A44DDDCF5E38328 /* UIRefreshControl+AFNetworking.h in Headers */,
+				7D02A34403C4B9BD255860AC /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F65354DEE92573A0E6FA7771 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEB72C6E3A072664A1CA35C /* Pods-QuoteQuiz-SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF98E879A59141B377ADAC1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0699F969E6DEA174EDDB477 /* FLKAutoLayoutPredicateList.h in Headers */,
+				CA6BAC97478A38640DA5FAA7 /* NSLayoutConstraint+FLKAutoLayoutDebug.h in Headers */,
+				AB007F5E72BD8AB7EEBFA5D9 /* Pods-QuoteQuiz-FLKAutoLayout-umbrella.h in Headers */,
+				A363351471258ED09BE9BD0E /* UIView+FLKAutoLayout.h in Headers */,
+				571A80F2CE70BA6B622AC8FA /* UIView+FLKAutoLayoutDebug.h in Headers */,
+				FC3F7392884579246857D8D7 /* UIView+FLKAutoLayoutPredicate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1DDB22DEBBB1533932ADF8DB /* Pods-QuoteQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 422D901F97558292D41189BC /* Build configuration list for PBXNativeTarget "Pods-QuoteQuiz" */;
+			buildPhases = (
+				9C72B7AB2AE9057148C52ABC /* Sources */,
+				369A89BA3B95FCD967306E94 /* Frameworks */,
+				76E67BA90E6513A0C7164177 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E7B392B8127C6A7DF55D3B3 /* PBXTargetDependency */,
+				D8D5C7D90CA31CDF22FCE296 /* PBXTargetDependency */,
+				6005664C18573F365BAF5E5F /* PBXTargetDependency */,
+				BB1E1E34D76539DDB68A716F /* PBXTargetDependency */,
+				1921498B859FF516E39F6489 /* PBXTargetDependency */,
+			);
+			name = "Pods-QuoteQuiz";
+			productName = "Pods-QuoteQuiz";
+			productReference = D5D5BCB38D2373BE96043C0D /* Pods_QuoteQuiz.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4BE38C86B23054992B0DDEE9 /* Pods-QuoteQuiz-AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06A9202DA61DE7F698CF0268 /* Build configuration list for PBXNativeTarget "Pods-QuoteQuiz-AFNetworking" */;
+			buildPhases = (
+				91930D94CB1E48655DDD28CF /* Sources */,
+				42AFE14816E7E90B5E60BFAE /* Frameworks */,
+				9E7D6199A53BD706EE13E31D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-QuoteQuiz-AFNetworking";
+			productName = "Pods-QuoteQuiz-AFNetworking";
+			productReference = 7C29CCB22D9475E4B1A47D96 /* AFNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		78EADC0CED5624F02FC1DB6A /* Pods-QuoteQuiz-SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DC91A46B8F7FFA5CFA5DA34 /* Build configuration list for PBXNativeTarget "Pods-QuoteQuiz-SwiftyJSON" */;
+			buildPhases = (
+				BD1B0C7B70ABAF9C3BABD46C /* Sources */,
+				AAE4634D6017066876986E04 /* Frameworks */,
+				F65354DEE92573A0E6FA7771 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-QuoteQuiz-SwiftyJSON";
+			productName = "Pods-QuoteQuiz-SwiftyJSON";
+			productReference = B7059DC7697E83CF50FF99A7 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		904732D7B89A53204E4A1CAF /* Pods-QuoteQuiz-FLKAutoLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B3680FF9B90C28F742B9426 /* Build configuration list for PBXNativeTarget "Pods-QuoteQuiz-FLKAutoLayout" */;
+			buildPhases = (
+				C7202F34F0E69041550A0CFA /* Sources */,
+				B482FA2C8A290352D6A478FC /* Frameworks */,
+				FF98E879A59141B377ADAC1B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-QuoteQuiz-FLKAutoLayout";
+			productName = "Pods-QuoteQuiz-FLKAutoLayout";
+			productReference = B51FFDF96E34832168A7035C /* FLKAutoLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9869476BB89383518086F5D9 /* Pods-QuoteQuiz-ORStackView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FB6E8EF479730C4576E98E5 /* Build configuration list for PBXNativeTarget "Pods-QuoteQuiz-ORStackView" */;
+			buildPhases = (
+				DC8EEB4F1B56B0302479DC26 /* Sources */,
+				B1658A84420BD57AA34BA045 /* Frameworks */,
+				4B84E75A2A3039769DE69E50 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E143AEF6E8316C71C656D741 /* PBXTargetDependency */,
+			);
+			name = "Pods-QuoteQuiz-ORStackView";
+			productName = "Pods-QuoteQuiz-ORStackView";
+			productReference = 89CD4C0A7C3AB12A64F26FA6 /* ORStackView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F6154D4271D1F4CDCD844AA8 /* Pods-QuoteQuiz-SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F73EF77622C65BF7B571BB4 /* Build configuration list for PBXNativeTarget "Pods-QuoteQuiz-SVProgressHUD" */;
+			buildPhases = (
+				39049180CA16619028462B72 /* Sources */,
+				83AF19A911D2BF58F77EF291 /* Frameworks */,
+				9041515922BFF186C3943255 /* Headers */,
+				41EA5B7BB1B824E26E9A65B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-QuoteQuiz-SVProgressHUD";
+			productName = "Pods-QuoteQuiz-SVProgressHUD";
+			productReference = 6CA67B7793FED1655D0B314B /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E47E0F3E9371781F4151D90C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 480E22B41D46FE53E4AC4445 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A796EC83200420C9798F2568;
+			productRefGroup = 20425AFF02FB542F5002ACA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DDB22DEBBB1533932ADF8DB /* Pods-QuoteQuiz */,
+				4BE38C86B23054992B0DDEE9 /* Pods-QuoteQuiz-AFNetworking */,
+				904732D7B89A53204E4A1CAF /* Pods-QuoteQuiz-FLKAutoLayout */,
+				9869476BB89383518086F5D9 /* Pods-QuoteQuiz-ORStackView */,
+				F6154D4271D1F4CDCD844AA8 /* Pods-QuoteQuiz-SVProgressHUD */,
+				78EADC0CED5624F02FC1DB6A /* Pods-QuoteQuiz-SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41EA5B7BB1B824E26E9A65B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6704D7118F7047ABE778F58 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39049180CA16619028462B72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9166FCAC6AE9B702EF934009 /* Pods-QuoteQuiz-SVProgressHUD-dummy.m in Sources */,
+				B67553D0E048DB6BE477BAFE /* SVIndefiniteAnimatedView.m in Sources */,
+				43A3C9639CCE99C0C842FDCB /* SVProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91930D94CB1E48655DDD28CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5FDEC77554650F9FF4A8A13 /* AFHTTPRequestOperation.m in Sources */,
+				9F6BDC93DBF789DCB6294D75 /* AFHTTPRequestOperationManager.m in Sources */,
+				A1CA1625F098CBB2838D905C /* AFHTTPSessionManager.m in Sources */,
+				1C0AA1183FDC625FF567E5FE /* AFNetworkActivityIndicatorManager.m in Sources */,
+				8024D4148259387BA57A3FA9 /* AFNetworkReachabilityManager.m in Sources */,
+				133C96D1F78DD9ACC2DBE645 /* AFSecurityPolicy.m in Sources */,
+				73A6CE840F77EBD81D1F527D /* AFURLConnectionOperation.m in Sources */,
+				37B0F90F93CDE67862E1585D /* AFURLRequestSerialization.m in Sources */,
+				4A38AD7C4BF5642831523799 /* AFURLResponseSerialization.m in Sources */,
+				4F411632C96672D05B7AA717 /* AFURLSessionManager.m in Sources */,
+				692AD8C00495E055E91E6ED0 /* Pods-QuoteQuiz-AFNetworking-dummy.m in Sources */,
+				5A77B5A233FD632DAB9AFB39 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				36DBD1431063C0DF68DE2421 /* UIAlertView+AFNetworking.m in Sources */,
+				A7E4147230D6FCEE4132A7D4 /* UIButton+AFNetworking.m in Sources */,
+				160EA0AD47F075FAA3B112DC /* UIImageView+AFNetworking.m in Sources */,
+				D63D9C3BB6816367807E3863 /* UIProgressView+AFNetworking.m in Sources */,
+				02A4FDE5DE736AD3D339AD06 /* UIRefreshControl+AFNetworking.m in Sources */,
+				0608221AD0F39321EDE76489 /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C72B7AB2AE9057148C52ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED1FD007BB76A71258EC1D0 /* Pods-QuoteQuiz-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1B0C7B70ABAF9C3BABD46C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D3E2FD340B1D93D34AD7F2 /* Pods-QuoteQuiz-SwiftyJSON-dummy.m in Sources */,
+				E4B4DC0307A2FCE4783A7967 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7202F34F0E69041550A0CFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3481C8581EE17D749DB577 /* FLKAutoLayoutPredicateList.m in Sources */,
+				419CBDF3D6ED50AE8E7032CD /* NSLayoutConstraint+FLKAutoLayoutDebug.m in Sources */,
+				13A7A91647595D8769EF5CB3 /* Pods-QuoteQuiz-FLKAutoLayout-dummy.m in Sources */,
+				25B75789BD2C119A1B3A08EC /* UIView+FLKAutoLayout.m in Sources */,
+				E91E8FB1149B932850C94240 /* UIView+FLKAutoLayoutDebug.m in Sources */,
+				B85378A0EBE8BEAD793E1FAA /* UIView+FLKAutoLayoutPredicate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8EEB4F1B56B0302479DC26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9C4FA14C18D5C1384878B3 /* ORSplitStackView.m in Sources */,
+				F89C8D40783082F629A92D95 /* ORStackScrollView.m in Sources */,
+				41A4FABB1CF1D7E1D37DFC34 /* ORStackView+Private.m in Sources */,
+				74A296F422D16318BC981527 /* ORStackView.m in Sources */,
+				F5EB302A3B72C71FAE981185 /* ORTagBasedAutoStackView.m in Sources */,
+				3AC0C107340B6660BE15E214 /* Pods-QuoteQuiz-ORStackView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1921498B859FF516E39F6489 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QuoteQuiz-SwiftyJSON";
+			target = 78EADC0CED5624F02FC1DB6A /* Pods-QuoteQuiz-SwiftyJSON */;
+			targetProxy = 9E107A7B3F757C698B2D46B5 /* PBXContainerItemProxy */;
+		};
+		3E7B392B8127C6A7DF55D3B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QuoteQuiz-AFNetworking";
+			target = 4BE38C86B23054992B0DDEE9 /* Pods-QuoteQuiz-AFNetworking */;
+			targetProxy = 54AED9C81B493E484C2493E3 /* PBXContainerItemProxy */;
+		};
+		6005664C18573F365BAF5E5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QuoteQuiz-ORStackView";
+			target = 9869476BB89383518086F5D9 /* Pods-QuoteQuiz-ORStackView */;
+			targetProxy = C9369183EF7EEE16C6EDB2B8 /* PBXContainerItemProxy */;
+		};
+		BB1E1E34D76539DDB68A716F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QuoteQuiz-SVProgressHUD";
+			target = F6154D4271D1F4CDCD844AA8 /* Pods-QuoteQuiz-SVProgressHUD */;
+			targetProxy = 52E4790576187CE4C92DE908 /* PBXContainerItemProxy */;
+		};
+		D8D5C7D90CA31CDF22FCE296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QuoteQuiz-FLKAutoLayout";
+			target = 904732D7B89A53204E4A1CAF /* Pods-QuoteQuiz-FLKAutoLayout */;
+			targetProxy = E3C85CD27BDA036DAFB30C9A /* PBXContainerItemProxy */;
+		};
+		E143AEF6E8316C71C656D741 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QuoteQuiz-FLKAutoLayout";
+			target = 904732D7B89A53204E4A1CAF /* Pods-QuoteQuiz-FLKAutoLayout */;
+			targetProxy = 562B2EAB769B70BE014C8BF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		148F9863B00A29918F85C5A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1FCE66F68182471E8DD67A6 /* Pods-QuoteQuiz-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-QuoteQuiz-AFNetworking/Pods-QuoteQuiz-AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-QuoteQuiz-AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-QuoteQuiz-AFNetworking/Pods-QuoteQuiz-AFNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		28FE4F77A98B885679E5E82F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1FCE66F68182471E8DD67A6 /* Pods-QuoteQuiz-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-QuoteQuiz-AFNetworking/Pods-QuoteQuiz-AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-QuoteQuiz-AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-QuoteQuiz-AFNetworking/Pods-QuoteQuiz-AFNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33C60EE267A37995C9CD44D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3B9F77EDFEF6D9E605755E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C81D6C3FDDEB22FD61DA977 /* Pods-QuoteQuiz-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-QuoteQuiz-SwiftyJSON/Pods-QuoteQuiz-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-QuoteQuiz-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-QuoteQuiz-SwiftyJSON/Pods-QuoteQuiz-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6320EFB1435BA672D1A65F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 904963375046F47CB12A853E /* Pods-QuoteQuiz.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QuoteQuiz/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-QuoteQuiz/Pods-QuoteQuiz.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_QuoteQuiz;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8971AD9DB631197498C78E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 927CD4E2F95E8D5D6885C6B4 /* Pods-QuoteQuiz-FLKAutoLayout-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-QuoteQuiz-FLKAutoLayout/Pods-QuoteQuiz-FLKAutoLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-QuoteQuiz-FLKAutoLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-QuoteQuiz-FLKAutoLayout/Pods-QuoteQuiz-FLKAutoLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FLKAutoLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B15C239D2285DFE14DED28C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 927CD4E2F95E8D5D6885C6B4 /* Pods-QuoteQuiz-FLKAutoLayout-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-QuoteQuiz-FLKAutoLayout/Pods-QuoteQuiz-FLKAutoLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-QuoteQuiz-FLKAutoLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-QuoteQuiz-FLKAutoLayout/Pods-QuoteQuiz-FLKAutoLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FLKAutoLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BCD8FA17F3DC265E59E2228C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12B68B0CAF25C8950D87BF5B /* Pods-QuoteQuiz-SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-QuoteQuiz-SVProgressHUD/Pods-QuoteQuiz-SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-QuoteQuiz-SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-QuoteQuiz-SVProgressHUD/Pods-QuoteQuiz-SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE4D2A22A3E73B0BD5F2EA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12B68B0CAF25C8950D87BF5B /* Pods-QuoteQuiz-SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-QuoteQuiz-SVProgressHUD/Pods-QuoteQuiz-SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-QuoteQuiz-SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-QuoteQuiz-SVProgressHUD/Pods-QuoteQuiz-SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB3803E592AB8A18CDAFD125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADB3FD1E2EB49D15AC60EF34 /* Pods-QuoteQuiz-ORStackView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-QuoteQuiz-ORStackView/Pods-QuoteQuiz-ORStackView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-QuoteQuiz-ORStackView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-QuoteQuiz-ORStackView/Pods-QuoteQuiz-ORStackView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ORStackView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC529B512DE77BD8BE10D8C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADB3FD1E2EB49D15AC60EF34 /* Pods-QuoteQuiz-ORStackView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-QuoteQuiz-ORStackView/Pods-QuoteQuiz-ORStackView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-QuoteQuiz-ORStackView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-QuoteQuiz-ORStackView/Pods-QuoteQuiz-ORStackView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ORStackView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE08BE102714581D04CD80C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C81D6C3FDDEB22FD61DA977 /* Pods-QuoteQuiz-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-QuoteQuiz-SwiftyJSON/Pods-QuoteQuiz-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-QuoteQuiz-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-QuoteQuiz-SwiftyJSON/Pods-QuoteQuiz-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED5256D7214A1382807EA21D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4444E789DD4DCC06EFD67E3D /* Pods-QuoteQuiz.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QuoteQuiz/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-QuoteQuiz/Pods-QuoteQuiz.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_QuoteQuiz;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE70C95F2BEA4DEF29F1CDFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06A9202DA61DE7F698CF0268 /* Build configuration list for PBXNativeTarget "Pods-QuoteQuiz-AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FE4F77A98B885679E5E82F /* Debug */,
+				148F9863B00A29918F85C5A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DC91A46B8F7FFA5CFA5DA34 /* Build configuration list for PBXNativeTarget "Pods-QuoteQuiz-SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B9F77EDFEF6D9E605755E6D /* Debug */,
+				DE08BE102714581D04CD80C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F73EF77622C65BF7B571BB4 /* Build configuration list for PBXNativeTarget "Pods-QuoteQuiz-SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE4D2A22A3E73B0BD5F2EA68 /* Debug */,
+				BCD8FA17F3DC265E59E2228C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		422D901F97558292D41189BC /* Build configuration list for PBXNativeTarget "Pods-QuoteQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6320EFB1435BA672D1A65F79 /* Debug */,
+				ED5256D7214A1382807EA21D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		480E22B41D46FE53E4AC4445 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33C60EE267A37995C9CD44D1 /* Debug */,
+				EE70C95F2BEA4DEF29F1CDFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FB6E8EF479730C4576E98E5 /* Build configuration list for PBXNativeTarget "Pods-QuoteQuiz-ORStackView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC529B512DE77BD8BE10D8C9 /* Debug */,
+				DB3803E592AB8A18CDAFD125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B3680FF9B90C28F742B9426 /* Build configuration list for PBXNativeTarget "Pods-QuoteQuiz-FLKAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B15C239D2285DFE14DED28C7 /* Debug */,
+				8971AD9DB631197498C78E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E47E0F3E9371781F4151D90C /* Project object */;
+}

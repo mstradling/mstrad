@@ -13,7 +13,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time: 30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3pg-Q7-cYh">
-                                <rect key="frame" x="122" y="68" width="76" height="46"/>
+                                <rect key="frame" x="101" y="69" width="118" height="46"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.74509803921568629" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -42,7 +42,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="a04-iB-rbc">
-                                <rect key="frame" x="116" y="412" width="88" height="102"/>
+                                <rect key="frame" x="94" y="414" width="132" height="102"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <color key="textColor" red="0.74509803921568629" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -51,7 +51,6 @@
                         </subviews>
                         <color key="backgroundColor" red="0.072369169529999999" green="1" blue="0.76808744610000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <connections>
                         <outlet property="Tap" destination="pt9-pd-Khd" id="wVs-a7-09I"/>
                         <outlet property="scoreLabel" destination="a04-iB-rbc" id="hbs-AR-H7x"/>

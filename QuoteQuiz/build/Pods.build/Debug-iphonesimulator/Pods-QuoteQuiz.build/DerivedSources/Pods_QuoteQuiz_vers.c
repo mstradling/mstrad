@@ -1,0 +1,1 @@
+ const unsigned char Pods_QuoteQuizVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Pods_QuoteQuiz  PROJECT:Pods-1" "\n"; const double Pods_QuoteQuizVersionNumber __attribute__ ((used)) = (double)1.;
