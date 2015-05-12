@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "2pz-XF-uhl"; */
+"2pz-XF-uhl.text" = "Título";
+
+/* Class = "UIViewController"; title = "Detail"; ObjectID = "Ah7-4n-0Wa"; */
+"Ah7-4n-0Wa.title" = "Detalle";
+
+/* Class = "UINavigationItem"; title = "Behold!"; ObjectID = "cra-N8-TIN"; */
+"cra-N8-TIN.title" = "He aquí!";
+
+/* Class = "UIButton"; normalTitle = "Onward!!!"; ObjectID = "gB1-7j-9TZ"; */
+"gB1-7j-9TZ.normalTitle" = "Adelante !!!";
+
+/* Class = "UITableViewController"; title = "Master"; ObjectID = "pGg-6v-bdr"; */
+"pGg-6v-bdr.title" = "Maestro";
+
+/* Class = "UINavigationController"; title = "Master"; ObjectID = "rS3-R9-Ivy"; */
+"rS3-R9-Ivy.title" = "Maestro";
+
+/* Class = "UINavigationItem"; title = "Master"; ObjectID = "tQt-TN-PWz"; */
+"tQt-TN-PWz.title" = "Maestro";
+
+/* Class = "UILabel"; text = "Hello"; ObjectID = "tTh-Mr-PCd"; */
+"tTh-Mr-PCd.text" = "Hola";

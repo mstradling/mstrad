@@ -20,9 +20,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    MFSHelloDoc *space1 = [[MFSHelloDoc alloc] initWithTitle:@"World!" rating:3 thumbImage:[UIImage imageNamed:@"earthThumb.jpg"] fullImage:[UIImage imageNamed:@"earth.jpg"]];
-    MFSHelloDoc *space2 = [[MFSHelloDoc alloc] initWithTitle:@"Sun!" rating:2 thumbImage:[UIImage imageNamed:@"sunThumb.png"] fullImage:[UIImage imageNamed:@"sun.jpg"]];
-    MFSHelloDoc *space3 = [[MFSHelloDoc alloc] initWithTitle:@"Galaxy!" rating:4 thumbImage:[UIImage imageNamed:@"galaxyThumb.jpg"] fullImage:[UIImage imageNamed:@"galaxy.jpg"]];
+    MFSHelloDoc *space1 = [[MFSHelloDoc alloc] initWithTitle:NSLocalizedString(@"World!", nil) rating:3 thumbImage:[UIImage imageNamed:@"earthThumb.jpg"] fullImage:[UIImage imageNamed:@"earth.jpg"]];
+    MFSHelloDoc *space2 = [[MFSHelloDoc alloc] initWithTitle:NSLocalizedString(@"Sun!", nil) rating:2 thumbImage:[UIImage imageNamed:@"sunThumb.png"] fullImage:[UIImage imageNamed:@"sun.jpg"]];
+    MFSHelloDoc *space3 = [[MFSHelloDoc alloc] initWithTitle:NSLocalizedString(@"Galaxy!", nil) rating:4 thumbImage:[UIImage imageNamed:@"galaxyThumb.jpg"] fullImage:[UIImage imageNamed:@"galaxy.jpg"]];
     
     NSMutableArray *spaces = [NSMutableArray arrayWithObjects:space1, space2, space3, nil];
     

@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  iLikeIt
+
+  Created by Matthew Frederick Stradling on 5/12/15.
+  Copyright (c) 2015 Raywenderlich. All rights reserved.
+*/
+"Yesterday you sold %@ apps" = "Yesterday you sold %@ apps";
+"You like?" = "You like?";
+"imageName" = "ilike";

@@ -60,7 +60,7 @@
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addTapped:)];
     self.navigationItem.rightBarButtonItem = addButton;
     
-    self.title = @"Hello World Deluxe!";
+    self.title = NSLocalizedString(@"Hello World Deluxe!", nil);
 }
 
 - (void)didReceiveMemoryWarning {
@@ -134,7 +134,7 @@
 
 -(void)addTapped:(id)sender
 {
-    [SVProgressHUD showErrorWithStatus:@"ERROR: Button does nothing"];
+    [SVProgressHUD showErrorWithStatus:NSLocalizedString(@"ERROR: Button does nothing", nil)];
     [_backgroundMusic setVolume:0.3];
     [_backgroundMusic play];
 }
