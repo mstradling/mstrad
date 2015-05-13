@@ -18,6 +18,7 @@
 		66A02DF91B019A9600850C20 /* SpriteKitSimpleGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A02DF81B019A9600850C20 /* SpriteKitSimpleGameTests.m */; };
 		66A02E041B019BE900850C20 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 66A02E021B019BE900850C20 /* Sounds */; };
 		66A02E051B019BE900850C20 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 66A02E031B019BE900850C20 /* sprites.atlas */; };
+		66CC10DA1B039F2B0066A5A3 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CC10D91B039F2B0066A5A3 /* GameOverScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		66A02DF81B019A9600850C20 /* SpriteKitSimpleGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteKitSimpleGameTests.m; sourceTree = "<group>"; };
 		66A02E021B019BE900850C20 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		66A02E031B019BE900850C20 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		66CC10D81B039F2B0066A5A3 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		66CC10D91B039F2B0066A5A3 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 				66A02DE91B019A9600850C20 /* Images.xcassets */,
 				66A02DEB1B019A9600850C20 /* LaunchScreen.xib */,
 				66A02DD71B019A9600850C20 /* Supporting Files */,
+				66CC10D81B039F2B0066A5A3 /* GameOverScene.h */,
+				66CC10D91B039F2B0066A5A3 /* GameOverScene.m */,
 			);
 			path = SpriteKitSimpleGame;
 			sourceTree = "<group>";
@@ -236,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66CC10DA1B039F2B0066A5A3 /* GameOverScene.m in Sources */,
 				66A02DE51B019A9600850C20 /* GameViewController.m in Sources */,
 				66A02DDD1B019A9600850C20 /* AppDelegate.m in Sources */,
 				66A02DE01B019A9600850C20 /* GameScene.m in Sources */,
