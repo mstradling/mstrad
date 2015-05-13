@@ -1,0 +1,1 @@
+To run a command just add "./" before the command's name and it will run just fine.
