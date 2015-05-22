@@ -1,26 +1,36 @@
 //
-//  PlayerDetailsViewControllerTableViewController.m
+//  GamePickerViewController.m
 //  GMRatings
 //
-//  Created by Matthew Frederick Stradling on 5/21/15.
+//  Created by Matthew Frederick Stradling on 5/22/15.
 //  Copyright (c) 2015 Matthew Frederick Stradling. All rights reserved.
 //
 
-#import "PlayerDetailsViewController.h"
-#import "Player.h"
+#import "GamePickerViewController.h"
 
-@interface PlayerDetailsViewController ()
+@interface GamePickerViewController ()
 
 @end
 
-@implementation PlayerDetailsViewController
+@implementation GamePickerViewController
 {
-  NSString *_game;
+  NSArray *_games;
+  NSUInteger _selectedIndex;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-  self.detailLabel.text = _game;
+  
+  _games = @[@"Angry Birds",
+             @"Chess",
+             @"Spin the Bottle",
+             @"Texas Hold'em Poker",
+             @"Tic-Tac-Toe",
+             @"Super Smash Bros",
+             @"Fire Emblem",
+             @"Soul Calibur",
+             @"Pokemon"];
+  _selectedIndex = [_games indexOfObject:self.game];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -36,69 +46,46 @@
 
 #pragma mark - Table view data source
 
-//- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-//#warning Potentially incomplete method implementation.
-//    // Return the number of sections.
-//    return 0;
-//}
-//
-//- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-//#warning Incomplete method implementation.
-//    // Return the number of rows in the section.
-//    return 0;
-//}
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-  // Bring up the keyboard when they select the cell
-  if (indexPath.section == 0) {
-    [self.nameTextField becomeFirstResponder];
-  }
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    // Return the number of sections.
+    return 1;
 }
 
-- (IBAction)cancel:(id)sender
-{
-  [self.delegate playerDetailsViewControllerDidCancel:self];
-}
-- (IBAction)done:(id)sender
-{
-  Player *player = [[Player alloc] init];
-  player.name = self.nameTextField.text;
-  player.game = _game;
-  player.rating = 3;
-  [self.delegate playerDetailsViewControllerDidSave:self didAddPlayer:player];
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    // Return the number of rows in the section.
+    return [_games count];
 }
 
-- (id)initWithCoder:(NSCoder *)aDecoder
-{
-  if ((self = [super initWithCoder:aDecoder])) {
-    NSLog(@"init PlayerDetailsViewController");
-    _game = @"Chess"; // default
-  }
-  return self;
-}
 
-- (void)dealloc
-{
-  NSLog(@"dealloc PlayerDetailsViewController");
-}
-
-- (void)gamePickerViewController:(GamePickerViewController *)controller didSelectGame:(NSString *)game
-{
-  _game = game;
-  self.detailLabel.text = _game;
-  [self.navigationController popViewControllerAnimated:YES];
-}
-
-/*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
-    return cell;
+  UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"GameCell"];
+  cell.textLabel.text = _games[indexPath.row];
+  
+  if (indexPath.row == _selectedIndex) {
+    cell.accessoryType = UITableViewCellAccessoryCheckmark;
+  } else {
+    cell.accessoryType = UITableViewCellAccessoryNone;
+  }
+  return cell;
 }
-*/
+
+#pragma mark - Table view delegate
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+  [tableView deselectRowAtIndexPath:indexPath animated:YES];
+  if (_selectedIndex != NSNotFound) {
+    UITableViewCell *cell = [tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:_selectedIndex inSection:0]];
+    cell.accessoryType = UITableViewCellAccessoryNone;
+  }
+  
+  _selectedIndex = indexPath.row;
+  
+  UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+  cell.accessoryType = UITableViewCellAccessoryCheckmark;
+  
+  NSString *game = _games[indexPath.row];
+  [self.delegate gamePickerViewController:self didSelectGame:game];
+}
 
 /*
 // Override to support conditional editing of the table view.
@@ -134,19 +121,14 @@
 }
 */
 
-
+/*
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
-  if ([segue.identifier isEqualToString:@"PickGame"]) {
-    GamePickerViewController *gamePickerVC = segue.destinationViewController;
-    gamePickerVC.delegate = self;
-    gamePickerVC.game = _game;
-  }
 }
-
+*/
 
 @end

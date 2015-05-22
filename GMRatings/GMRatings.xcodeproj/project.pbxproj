@@ -42,6 +42,7 @@
 		663846521B0E8955002E6898 /* Players.png in Resources */ = {isa = PBXBuildFile; fileRef = 6638463A1B0E8955002E6898 /* Players.png */; };
 		663846531B0E8955002E6898 /* Players@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6638463B1B0E8955002E6898 /* Players@2x.png */; };
 		663846561B0E8ADE002E6898 /* PlayerDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663846551B0E8ADE002E6898 /* PlayerDetailsViewController.m */; };
+		66CE83E71B0F7E9100B73360 /* GamePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CE83E61B0F7E9100B73360 /* GamePickerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +101,8 @@
 		6638463B1B0E8955002E6898 /* Players@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Players@2x.png"; sourceTree = "<group>"; };
 		663846541B0E8ADE002E6898 /* PlayerDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerDetailsViewController.h; sourceTree = "<group>"; };
 		663846551B0E8ADE002E6898 /* PlayerDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerDetailsViewController.m; sourceTree = "<group>"; };
+		66CE83E51B0F7E9100B73360 /* GamePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePickerViewController.h; sourceTree = "<group>"; };
+		66CE83E61B0F7E9100B73360 /* GamePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePickerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +157,8 @@
 				663846201B0E881A002E6898 /* PlayerCell.m */,
 				663846541B0E8ADE002E6898 /* PlayerDetailsViewController.h */,
 				663846551B0E8ADE002E6898 /* PlayerDetailsViewController.m */,
+				66CE83E51B0F7E9100B73360 /* GamePickerViewController.h */,
+				66CE83E61B0F7E9100B73360 /* GamePickerViewController.m */,
 				663846241B0E8955002E6898 /* 1Star.png */,
 				663846251B0E8955002E6898 /* 1Star@2x.png */,
 				663846261B0E8955002E6898 /* 1StarSmall.png */,
@@ -339,6 +344,7 @@
 				663845FA1B0E6E38002E6898 /* ViewController.m in Sources */,
 				6638461B1B0E7A76002E6898 /* PlayersViewController.m in Sources */,
 				663845F71B0E6E38002E6898 /* AppDelegate.m in Sources */,
+				66CE83E71B0F7E9100B73360 /* GamePickerViewController.m in Sources */,
 				663845F41B0E6E38002E6898 /* main.m in Sources */,
 				663846211B0E881A002E6898 /* PlayerCell.m in Sources */,
 				6638461E1B0E7EC3002E6898 /* Player.m in Sources */,
@@ -542,6 +548,7 @@
 				663846131B0E6E39002E6898 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		663846141B0E6E39002E6898 /* Build configuration list for PBXNativeTarget "GMRatingsTests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +557,7 @@
 				663846161B0E6E39002E6898 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
