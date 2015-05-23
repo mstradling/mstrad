@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Player.h"
 #import "GamePickerViewController.h"
+#import "RankPickerViewController.h"
 
 @class PlayerDetailsViewController;
 
@@ -17,9 +18,10 @@
 - (void)playerDetailsViewControllerDidSave:(PlayerDetailsViewController *)controller didAddPlayer:(Player *)player;
 @end
 
-@interface PlayerDetailsViewController : UITableViewController <GamePickerViewControllerDelegate>
+@interface PlayerDetailsViewController : UITableViewController <GamePickerViewControllerDelegate, RankPickerViewControllerDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *nameTextField;
 @property (weak, nonatomic) IBOutlet UILabel *detailLabel;
+@property (weak, nonatomic) IBOutlet UILabel *detailRank;
 
 @property (nonatomic, weak) id <PlayerDetailsViewControllerDelegate> delegate;
 

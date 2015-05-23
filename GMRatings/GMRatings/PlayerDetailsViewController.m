@@ -16,11 +16,13 @@
 @implementation PlayerDetailsViewController
 {
   NSString *_game;
+  NSString *_rank;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
   self.detailLabel.text = _game;
+  self.detailRank.text = _rank;
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -65,7 +67,17 @@
   Player *player = [[Player alloc] init];
   player.name = self.nameTextField.text;
   player.game = _game;
-  player.rating = 3;
+  if ([_rank isEqualToString:@"1 Star"]) {
+    player.rating = 1;
+  } else if ([_rank isEqualToString:@"2 Stars"]) {
+    player.rating = 2;
+  } else if ([_rank isEqualToString:@"3 Stars"]) {
+    player.rating = 3;
+  } else if ([_rank isEqualToString:@"4 Stars"]) {
+    player.rating = 4;
+  } else {
+    player.rating = 5;
+  }
   [self.delegate playerDetailsViewControllerDidSave:self didAddPlayer:player];
 }
 
@@ -74,6 +86,7 @@
   if ((self = [super initWithCoder:aDecoder])) {
     NSLog(@"init PlayerDetailsViewController");
     _game = @"Chess"; // default
+    _rank = @"1 Star"; //default
   }
   return self;
 }
@@ -87,6 +100,13 @@
 {
   _game = game;
   self.detailLabel.text = _game;
+  [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (void)rankPickerViewController:(RankPickerViewController *)controller didSelectRank:(NSString *)rank
+{
+  _rank = rank;
+  self.detailRank.text = _rank;
   [self.navigationController popViewControllerAnimated:YES];
 }
 
@@ -145,6 +165,10 @@
     GamePickerViewController *gamePickerVC = segue.destinationViewController;
     gamePickerVC.delegate = self;
     gamePickerVC.game = _game;
+  } else if ([segue.identifier isEqualToString:@"PickRank"]) {
+    RankPickerViewController *rankPickerVC = segue.destinationViewController;
+    rankPickerVC.delegate = self;
+    rankPickerVC.rank = _rank;
   }
 }
 
