@@ -49,7 +49,7 @@ class DetailViewController: UIViewController {
       case "Tic-Tac-Toe":
       return UIImage(named: "TicTacToe.png")
       case "Super Smash Bros":
-      return UIImage(named: "SSB.jpg")
+      return UIImage(named: "SSBsmall.jpg")
       case "Fire Emblem":
       return UIImage(named: "FireEmblem.jpg")
       case "Soul Calibur":

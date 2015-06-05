@@ -16,11 +16,12 @@
 		6636ADA61B20D4660096A220 /* Pokemon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6636AD9F1B20D4660096A220 /* Pokemon.jpg */; };
 		6636ADA71B20D4660096A220 /* poker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6636ADA01B20D4660096A220 /* poker.jpg */; };
 		6636ADA81B20D4660096A220 /* SoulCalibur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6636ADA11B20D4660096A220 /* SoulCalibur.jpg */; };
-		6636ADA91B20D4660096A220 /* SSB.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6636ADA21B20D4660096A220 /* SSB.jpg */; };
 		6636ADAA1B20D4660096A220 /* SWTOR.png in Resources */ = {isa = PBXBuildFile; fileRef = 6636ADA31B20D4660096A220 /* SWTOR.png */; };
 		6636ADAB1B20D4660096A220 /* TicTacToe.png in Resources */ = {isa = PBXBuildFile; fileRef = 6636ADA41B20D4660096A220 /* TicTacToe.png */; };
 		6636ADAD1B20D7210096A220 /* EditDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6636ADAC1B20D7210096A220 /* EditDetailViewController.swift */; };
 		6636ADB11B20EC100096A220 /* mainIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6636ADB01B20EC100096A220 /* mainIcon.png */; };
+		66CEC0B61B21E78B00581982 /* SSB.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66CEC0B51B21E78B00581982 /* SSB.jpg */; };
+		66CEC0B81B21E87500581982 /* SSBsmall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66CEC0B71B21E87500581982 /* SSBsmall.jpg */; };
 		66F43B5F1B1CE820000356BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F43B5E1B1CE820000356BA /* AppDelegate.swift */; };
 		66F43B611B1CE820000356BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F43B601B1CE820000356BA /* ViewController.swift */; };
 		66F43B641B1CE820000356BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F43B621B1CE820000356BA /* Main.storyboard */; };
@@ -78,11 +79,12 @@
 		6636AD9F1B20D4660096A220 /* Pokemon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pokemon.jpg; sourceTree = "<group>"; };
 		6636ADA01B20D4660096A220 /* poker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = poker.jpg; sourceTree = "<group>"; };
 		6636ADA11B20D4660096A220 /* SoulCalibur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SoulCalibur.jpg; sourceTree = "<group>"; };
-		6636ADA21B20D4660096A220 /* SSB.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SSB.jpg; sourceTree = "<group>"; };
 		6636ADA31B20D4660096A220 /* SWTOR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SWTOR.png; sourceTree = "<group>"; };
 		6636ADA41B20D4660096A220 /* TicTacToe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TicTacToe.png; sourceTree = "<group>"; };
 		6636ADAC1B20D7210096A220 /* EditDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDetailViewController.swift; sourceTree = "<group>"; };
 		6636ADB01B20EC100096A220 /* mainIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainIcon.png; sourceTree = "<group>"; };
+		66CEC0B51B21E78B00581982 /* SSB.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SSB.jpg; sourceTree = "<group>"; };
+		66CEC0B71B21E87500581982 /* SSBsmall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SSBsmall.jpg; sourceTree = "<group>"; };
 		66F43B591B1CE820000356BA /* SwiftRatings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftRatings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F43B5D1B1CE820000356BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66F43B5E1B1CE820000356BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -206,8 +208,9 @@
 				6636AD9E1B20D4660096A220 /* FireEmblem.jpg */,
 				6636AD9F1B20D4660096A220 /* Pokemon.jpg */,
 				6636ADA01B20D4660096A220 /* poker.jpg */,
+				66CEC0B51B21E78B00581982 /* SSB.jpg */,
+				66CEC0B71B21E87500581982 /* SSBsmall.jpg */,
 				6636ADA11B20D4660096A220 /* SoulCalibur.jpg */,
-				6636ADA21B20D4660096A220 /* SSB.jpg */,
 				6636ADA31B20D4660096A220 /* SWTOR.png */,
 				6636ADA41B20D4660096A220 /* TicTacToe.png */,
 				66F43B5C1B1CE820000356BA /* Supporting Files */,
@@ -322,6 +325,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				66F43B9C1B1CEBE8000356BA /* 2StarsSmall.png in Resources */,
+				66CEC0B61B21E78B00581982 /* SSB.jpg in Resources */,
+				66CEC0B81B21E87500581982 /* SSBsmall.jpg in Resources */,
 				6636AD9D1B20D42D0096A220 /* CHESS.png in Resources */,
 				66F43BA81B1CEBE8000356BA /* 5StarsSmall.png in Resources */,
 				66F43B9B1B1CEBE8000356BA /* 2Stars@2x.png in Resources */,
@@ -332,7 +337,6 @@
 				6636ADA51B20D4660096A220 /* FireEmblem.jpg in Resources */,
 				66F43BA51B1CEBE8000356BA /* 4StarsSmall@2x.png in Resources */,
 				66F43B691B1CE820000356BA /* LaunchScreen.xib in Resources */,
-				6636ADA91B20D4660096A220 /* SSB.jpg in Resources */,
 				66F43BAB1B1CEBE8000356BA /* Gestures@2x.png in Resources */,
 				6636ADA61B20D4660096A220 /* Pokemon.jpg in Resources */,
 				66F43B9E1B1CEBE8000356BA /* 3Stars.png in Resources */,
