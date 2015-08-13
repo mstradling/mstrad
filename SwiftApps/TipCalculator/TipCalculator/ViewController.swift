@@ -37,7 +37,7 @@ class ViewController: UIViewController {
     //2
     taxPctSlider.value = Float(tipCalc.taxPct) * 100.0
     //3
-    tacPctLabel.text = "Ta Percentage (\(Int(taxPctSlider.value))%)"
+    tacPctLabel.text = "Tax Percentage (\(Int(taxPctSlider.value))%)"
     //4
     results.text = ""
   }
